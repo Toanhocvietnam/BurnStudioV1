@@ -1,0 +1,230 @@
+@font-face {
+    font-family: HelveticaLTSTD;
+    
+    src: url(../font/HelveticaLTStd/HelveticaLTStd-Roman.otf);
+}
+@font-face {
+    font-family: HelveticaLTSTD;
+    font-weight: bold;
+    src: url(../font/HelveticaLTStd/HelveticaLTStd-Bold.otf);
+}
+@font-face {
+	font-family: GillSans;
+	font-weight: bold;
+	font-style: italic;
+	src: url(../font/GillSans-SemiBoldItalic.ttf);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.hvtc-bold {
+	font-family: HelveticaLTSTD;
+	font-weight: bold;
+}
+.hvtc-roman {
+	font-family: HelveticaLTSTD
+}
+.italic {
+	font-style: italic;
+}
+.gs {
+	font-family: GillSans;
+	font-weight: bold;
+	font-style: italic;
+}
+.c666 {
+	color: #666;
+}
+#web-content {
+	width: 1600px;
+	height: 1800px;
+	margin: 0 auto;
+	
+	
+	
+
+}
+#header {
+	height: 128px;
+	border-bottom: 1px double #cccccc;	
+}
+
+#web-logo {
+	float: left;
+	font-size: 36px;
+	line-height: 128px;
+	margin-left: 320px;
+	letter-spacing: -0.05em;
+}
+#web-logo span {
+
+}
+#header .nav{
+	float: right;
+	margin-right: 320px;
+	line-height: 128px;
+	font-size: 18px;
+	letter-spacing: -0.05em;
+}
+
+nav a {
+	background: white;
+}
+.nav-link {
+	text-decoration: none;
+	color: #000;
+}
+#portfolio {
+	color: #999999;
+}
+
+#welcome {
+	padding-top: 95px;
+	height: 408px;
+	text-align: center;
+	border-bottom: 1px double #cccccc;
+}
+#welcome .title {
+	margin:0px auto 0px;
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+}
+#welcome .description {
+	line-height: 28px;
+	font-size: 16px;
+	padding-top: 46px;
+	padding-bottom: 46px;
+	letter-spacing: -0.05em;
+}
+#welcome button {
+	background-color:#222;
+	color: #FFF; 
+	width: 140px;
+	height: 44px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	letter-spacing: 0.1px;
+
+}
+#experiment {
+	height: 507px;
+}
+#experiment .title {
+	margin: 0px 320px 0px 320px;
+	font-size: 36px;
+	letter-spacing: -0.05em;
+	height: 128px;
+	line-height: 128px;
+	
+	
+}
+#projects{
+	margin:0px 305px auto 305px;
+	height: 279px;
+}
+
+.project {
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin: 0px 15px 0px 15px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+.project-img {
+	display: block;
+	width: 100%;
+	height: 200px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.project .project-name {
+	margin-top: 19px;
+	margin-bottom: 13px;
+	letter-spacing: -0.05em;
+}
+.project .description {
+	letter-spacing: 0em;
+}
+
+#footer {
+	background-color: #e5e5e5;
+	height: 482px;
+	padding-left: 320px;
+}
+#footer .title {
+	height: 122px;
+	line-height: 122px;
+	font-size: 30px;
+	letter-spacing: -0.05em;
+}
+#footer .description {
+	margin-bottom: 50px;
+	font-size: 22px;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+#contact {
+	margin: 107px 0px auto 0px;
+
+}
+#copyright {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 0em;
+
+}
